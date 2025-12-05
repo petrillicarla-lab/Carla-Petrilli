@@ -10,16 +10,156 @@
 </head>
 <body>
     <header>
-        <h1>Bienvenue À Travers Le Monde</h1>
+       
+         <div class="header-container">
+            
+            <img src="logoATLM.png" alt="Logo À Travers Le Monde" class="logo">
+
+            <nav>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    
+                    <li><a href="#contact">Contact</a></li>
+                    
+                    <li><a href="#galerie">Galerie</a></li>
+
+                    <li><a href="#collections">Photos</a></li>
+
+                    <li><a href="#apropos">À propos</a></li>
+
+                </ul>
+            </nav>
+        </div>
         <!--Faut ajouter le logo et tt-->
     </header>
+    
+    <!--Banderole d'en haut-->
+    <section class="premiere">
+        <h1>Bienvenue chez À Travers Le Monde, une galerie où l’on allie le voyage avec l’art.</h1>
 
-    <main>
-        <!--Ici le contenu de la page (images,...)-->
-    </main>
+        <h2>Découvrez nos collections</h2>
+
+        <a href="#collections" class="btn">Cliquez Ici</a>
+    </section>
+
+    <!-- COLLECTIONS -->
+     <!-- AJOUTER UN EFFET HOOVER-->
+    <section class="collections" id="collections">
+        <h2>Nos collections phares</h2>
+
+        <div class="collection-grid">
+            <div class="collection-item">
+                <p>Paris</p>
+                <img src="Paris.jpg" alt="Paris">
+            </div>
+
+            <div class="collection-item">
+                <p>New York</p>
+                <img src="ny.jpg" alt="New York">
+            </div>
+
+            <div class="collection-item">
+                <p>Tokyo</p>
+                <img src="Japon.jpg" alt="Tokyo">
+            </div>
+        </div>
+    </section>
+
+    <!-- À PROPOS -->
+
+    <section class="apropos" id="apropos">
+        <h2>À propos de nous</h2>
+        <br> 
+
+        <div class="apropos-container">
+            <div class="texte">
+                <p><strong>D’une idée simple à l’autre bout du monde à une Galerie d’Art.</strong></p>
+
+                <p>
+                    Lors de l’un de ces voyages, Mme Dubois, photographe, eut l’idée
+                    d’allier ces deux passions, le voyage et la photo afin de faire voyager
+                    les autres à travers ses photos.
+                </p>
+
+                <p>
+                    C’est ainsi que naît À Travers Le Monde, une Galerie composée de
+                    photos prises lors de ses escapades.
+                </p>
+            </div>
+
+            <img src="photographe.jpg" alt="Photographe" class="photo-apropos">
+        </div>
+    </section>
+
+    <!-- Galerie-->
+
+    <section class="galerie" id="galerie">
+    <h2>Galerie</h2>
+
+    <div class="galerie-grid">
+        <div class="galerie-item">
+            <img src="Galerie1.png" alt="Devanture de la galerie">
+        </div>
+        
+        <div class="galerie-item">
+            <img src="galerie2.png" alt="Intérieur de la galerie">
+        </div>
+        
+        <div class="galerie-item">
+            <img src="galerie3.png" alt="Inauguration de la galerie">
+        </div>
+    </div>
+</section>
+
+    <!-- CONTACT -->
+
+    <section class="contact" id="contact">
+        <div class="contact-container">
+
+            <div class="contact-left">
+                <h3>Nous contacter :</h3>
+
+                <div class="icons">
+
+                    <a href="https://www.instagram.com/votreprofil" target="_blank">
+                        <img src="Instagram.png" alt="Instagram">
+                    </a>
+                    
+
+                    <a href="https://www.facebook.com/votrepage" target="_blank">
+                    <img src="facebook.png" alt="Facebook">
+                    </a>
+                    
+                    <img src="Telephone.png" alt="Téléphone">
+
+
+                    <a href="mailto:Atraverslemonde@mail.com">
+                        <img src="mail.png" alt="Email">
+                    </a>
+
+                </div>
+
+                <br>
+
+                <h4>Où nous trouver ?</h4>
+                <p>12 Rue Paradis, Nice</p>
+            </div>
+
+            <div class="contact-right">
+                <h3>Pour ne rien manquer, inscrivez-vous à notre Newsletter :</h3>
+
+                <form>
+                    <input type="text" placeholder="Nom">
+                    <input type="text" placeholder="Prénom">
+                </form>
+            </div>
+        </div>
+    </section>
+
 
     <footer>
-        <!--Ici le bas de page (newsletter il me semble et contact)-->
+        <!--Peut etre passer la section contact en footer -->
     </footer>
+    
 </body>
 </html>
