@@ -163,6 +163,11 @@ nav a {
     color: #444;
 }
 
+.artiste-item img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
 /* ------- À PROPOS ------- */
 
 .apropos {
